@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea name="" id="txt1" cols="30" rows="10" placeholder=""></textarea>
+<input type="button" id="btn" value="过滤">
+<textarea name="" id="txt2" cols="30" rows="10" placeholder=""></textarea>
+<script>
+    window.onload=function () {
+        var Txt1 = document.getElementById('txt1');
+        var Btn = document.getElementById('btn');
+        var Txt2 = document.getElementById('txt2');
+        Btn.onclick=function () {
+          var  re=/淘宝|北京|百度/g;
+            Txt2.value=Txt1.value.replace(re,'**')
+        }
+    }
+</script>
+</body>
+</html>
