@@ -1,0 +1,577 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*最顶层导航*/
+nav{
+    position: fixed;
+    z-index: 1000;
+    margin: 0 auto;
+}
+.nav-top{
+    height: 30px;
+    line-height: 30px;
+}
+.nav-top-a .nav-top-r{
+    height: 30px;
+}
+.nav-top-r ul{
+    list-style: none;
+}
+.nav-top-r ul li{
+    float: left;
+}
+.nav-top-r ul .line{
+    margin: 0 5px;
+}
+.nav-top-r ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+.nav-top-r .col-md-3{
+    width: 17%;
+}
+
+/*主导航*/
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-r ul li{
+    float: left;
+}
+.navbar-toggle{
+    margin-top: 20px;
+}
+.navbar-l {
+    height: 80px;
+    line-height: 80px;
+}
+.navbar-default .navbar-nav>li>a{
+    display: inline-block;
+    width: 86px;
+    text-align: center;
+    height: 80px;
+    line-height: 50px;
+}
+.navbar-default {
+    border: none;
+    background: #FFFFFF;
+}
+
+/*导航处当前页面停留红色背景*/
+.navbar-default .navbar-nav>li>a:hover{
+    display: block;
+    color: #FFFFFF;
+    background-color:#d80c18;
+    width: 86px;
+    height: 80px;
+}
+.navbar-default .navbar-nav>li> .note{
+    color: #FFFFFF;
+    background-color:#d80c18;
+    width: 86px;
+    text-align: center;
+    height: 80px;
+    line-height: 50px;
+}
+
+/*大图片*/
+.banner{
+    padding:0;
+}
+.banner img{
+    width: 100%;
+}
+/*主要内容*/
+.container-l ul li{
+    float: left;
+    margin: 50px 15px 10px;
+}
+.container-l ul .active {
+    border-bottom: 2px solid #d80c18;
+}
+.container-l ul li a {
+    display: inline-block;
+    color: #000000;
+    font-size: 20px ;
+    font-weight: 700;
+    padding: 0;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background: #FFFFFF;
+}
+.news-top{
+    margin-top: 20px;
+}
+.news-top-l{
+    width: 128px;
+    height: 84px;
+}
+.news-top-l img{
+    width: 100%;
+    height: 100%;
+}
+.news-top-r{
+    padding: 0;
+}
+.news-top .news-top-r h3{
+    font-size: 16px;
+    margin: 0;
+    height: 16px;
+    overflow: hidden;
+}
+.news-top .news-top-r p {
+    font-size: 12px;
+    overflow: hidden;
+    margin: 10px 0;
+    color: #666666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.news-top .news-top-r span {
+    color: #666666;
+}
+.news-center {
+    margin-top: 10px;
+    margin-bottom:25px;
+}
+.news-center-one{
+   padding: 6px 0;
+}
+.news-center-one .line{
+    width: 100%;
+    height: 1px;
+    background: #f0f0f0;
+    margin:30px 0 0 16px;
+}
+.news-center-one .news-center-one-l{
+    overflow: hidden;
+    height: 20px;
+}
+.news-center-one .news-center-one-r {
+    text-align: right;
+    color: #666666;
+}
+.tab-content .carousel-inner .news-bot  ul{
+    margin-bottom: 0;
+}
+.tab-content .carousel-inner .news-bot  ul li  {
+    display: inline-block;
+    background:#000;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "SimSun";
+   margin:0 5px 0 0;
+}
+.tab-content .carousel-inner .news-bot a , .tab-content .carousel-inner .news-bot a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.news-bot-r{
+    margin-left:-3px;
+}
+.news-bot a{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "SimSun";
+    text-decoration: none;
+}
+.tab-content .carousel-inner .news-bot  .active {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    background:#d80c18;
+    text-decoration: none;
+    border-bottom:none;
+}
+.news-bot{
+    margin-left: 15px;
+    /*margin-top: 50px;*/
+}
+.container-r{
+    margin-top: 50px;
+}
+.container-r .container-r-r .container-r-r-t{
+    margin-bottom: 4%;
+}
+
+.container-r .container-r-r .container-r-r-b .container-r-r-b-l {
+    width: 48%;
+    margin-right: 4%;
+}
+.container-r .container-r-r .container-r-r-b .container-r-r-b-l img{
+    width: 100%;
+}
+.container-r .container-r-r .container-r-r-b .container-r-r-b-r{
+    width: 48%;
+}
+.container-r .container-r-r .container-r-r-b .container-r-r-b-r img{
+    width: 100%;
+}
+.container-r .container-r-r .container-r-r-b .container-r-r-b-r .more p{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: -40%;
+    margin-left:36%;
+}
+
+.container-r .container-r-r .container-r-r-b .container-r-r-b-r .more img{
+    width: 29px;
+    height: 30px;
+    margin-top: -90%;
+    margin-left:42%;
+}
+.container-r .container-r-l{
+width: 41%;
+margin-right: 2%;
+}
+.container-r .container-r-l img{
+width: 100%;
+}
+.container-r .container-r-r {
+width: 57%;
+}
+.container-r .container-r-r img{
+width: 100%;
+}
+.container-r  .container-r-r-b-l img {
+width: 100%;
+}
+
+
+.carousel-indicators li{
+    width: 50px;
+}
+.carousel-indicators .active {
+    width: 50px;
+}
+/*主要内容部分中点击公司新闻  即显示轮播图 隐藏项目动态
+点击项目动态  即隐藏轮播图 显示项目动态 */
+.tab-content .fade{
+    display: none;/*隐藏*/
+}
+.tab-content .fade.in{  /* .fade.in紧挨着的 代表.in*/
+    display: block;/*显示*/
+}
+
+@media(max-width: 1795px) {
+    .container-l {
+        width: 100%;
+    }
+    .container-r {
+        width: 100%;
+    }
+}
+@media(max-width: 1500px) {
+   .bott .bott-s {
+        width: 100%;
+        left: 0;
+    }
+}
+@media(max-width: 1175px) {
+
+    .navbar-r{
+        width: 120%;
+        left: 8.33333%;
+    }
+    .bott .bott-s ul .one{
+        top: -70px;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        position: absolute;
+    }
+    .bott  .bott-s ul .two{
+        top: -70px;
+        left: 0;
+        position: absolute;
+    }
+    .bott .bott-s ul .three{
+        top: -70px;
+        left: 0;
+        position: absolute;
+    }
+    .bott .bott-s ul .four{
+        top: -70px;
+        left: 0;
+        position: absolute;
+    }
+    .bott .bott-s ul .five{
+        top: -70px;
+        left: 0;
+        position: absolute;
+    }
+    .bott .bott-s ul .six{
+        top: -70px;
+        left: 0;
+        position: absolute;
+    }
+}
+@media(max-width: 1175px) {
+    .navbar-r{
+        width: 100%;
+    }
+    .bott-s{
+        display: none;
+    }
+  .bott  .bott-s2{
+        display: block;
+    }
+    .bott .bott-s2 ul li {
+        margin-top: 30px;
+    }
+}
+@media(max-width: 600px) {
+    .footer .footer-r,.footer .footer-l{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width: 465px) {
+    .bott .bott-s2 ul li {
+        width: 33.333%;
+    }
+}
+@media(max-width: 367px) {
+
+    .news-top-r{
+        width: 100%;
+    }
+    .news-top-l{
+        width:100%;
+        text-align: center;
+        margin-bottom:20px;
+    }
+    .news-top-l img{
+        width: 128px;
+        height: 84px;
+    }
+    .container-r .container-r-r .container-r-r-b .container-r-r-b-r .more p {
+        font-size: 10px;
+        color: #FFFFFF;
+        margin-top: -50%;
+        margin-left: 8%;
+    }
+    .container-r .container-r-r .container-r-r-b .container-r-r-b-r .more img{
+        display: none;
+    }
+}
+/*底部*/
+.bott{
+    padding: 0;
+    background: #f2f2f2;
+    margin-top: 50px;
+}
+.bott ul{
+    list-style: none;
+    padding: 0;
+}
+.bott-s {
+    width:1200px;
+margin: auto;
+   float: none;
+}
+
+.bott ul li{
+    height: 70px;
+    margin: 35px 0;
+    overflow: hidden;
+}
+.bott ul li img{
+    width: 100%;
+}
+.bott ul .one-o{
+    position: relative;
+}
+.bott ul .one{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+height: 70px;
+}
+.bott ul .one:hover{
+    top: -68px;
+    left: 0;
+    position: absolute;
+}
+.bott ul .two-t{
+    position: relative;
+}
+.bott ul .two{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+.bott ul .two:hover{
+    top: -68px;
+    left: 0;
+    position: absolute;
+}
+.bott ul .three-t{
+    position: relative;
+}
+.bott ul .three{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+.bott ul .three:hover{
+    top: -68px;
+    left: 0;
+    position: absolute;
+}
+.bott ul .four-f{
+    position: relative;
+}
+.bott ul .four{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+.bott ul .four:hover{
+    top: -68px;
+    left: 0;
+    position: absolute;
+}
+.bott ul .five-f{
+    position: relative;
+}
+.bott ul .five{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+.bott ul .five:hover{
+    top: -68px;
+    left: 0;
+    position: absolute;
+}
+.bott ul .six-s{
+    position: relative;
+}
+.bott ul .six{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+.bott ul .six:hover{
+    top: -68px;
+    left: 0;
+    position: absolute;
+}
+
+
+.footer{
+    margin: 20px 0;
+}
+.footer .footer-l{
+    float: left;
+}
+.footer .footer-r{
+    float: right;
+}
+.footer .footer-r span{
+    color: #aaaaaa;
+}
+.footer .footer-r span:hover{
+    color: #000000;
+}
+
+
+
+/*点击图片出现文字开始*/
+.container-r .container-r-l,.container-r .container-r-r-t,.container-r .container-r-r-b-l{
+    position: relative;
+}
+.container-r .container-r-l:hover p ,/*.container-r .container-r-r-t:hover p,*/.container-r .container-r-r-b-l:hover p {   /*重点：(##:hover p   使点击图片就出现文字)*/
+    height: 30px
+}
+.container-r .container-r-l p,/*.container-r .container-r-r-t p,*/.container-r .container-r-r-b-l p{
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    color:#FFFFFF;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+.container-r .container-r-r-t p{
+width: 100%;
+height: 30px;
+position: absolute;
+left: 0;
+bottom: 0;
+background: #000;
+opacity: 0.5;
+-webkit-transition: opacity 0.5s;
+transition: opacity 0.5s;
+color:#FFFFFF;
+margin-bottom: 0;
+line-height: 30px;
+}
+.container-r .container-r-r-t:hover {
+    background: #FFFFFF;
+    opacity: 0.8;
+}
+/*点击图片出现文字结束*/
+.navbar-r ul{
+    list-style: none;
+    height: 80px;
+}
+.nav li{
+    width: 86px;
+}
+.navbar-r  .aa .black{
+    display: none;
+    width: 245%;
+    height: 50px;
+    line-height: 50px;
+    background: #000;
+    z-index:2;
+}
+.navbar-r .black li{
+    padding-right: 5%;
+    width: 80px;
+}
+.navbar-r .black li a {
+    color: #FFFFFF;
+}
+.navbar-r ul .aa:hover .black{
+    display: block;
+}
+.banner-a{
+    background: url("../images/banner1.jpg") no-repeat;
+    height: 500px;
+    float: left;
+}
+.bott-s2{
+    display: none;
+}
